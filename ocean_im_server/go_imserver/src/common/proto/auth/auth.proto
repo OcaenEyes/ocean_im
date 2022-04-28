@@ -1,0 +1,56 @@
+syntax = "proto3";
+package oceanImAuth;
+option go_package = ".;oceanImAuth";
+
+message UserRegisterReq {
+  string userId = 1;
+  string nickName = 2;
+  string phone = 3;
+  string passWord = 4;
+  string email = 5;
+  string birth = 6;
+  string headImg = 7;
+  int32 gender = 8;
+  string ex = 9;
+
+}
+
+message UserLoginReq {
+  string userId = 1;
+  string nickName = 2;
+  string phone = 3;
+  string passWord = 4;
+  string email = 5;
+}
+
+message UserTokenReq {
+  int32 platform = 1;
+  string userId = 2;
+}
+
+message UserRegisterResp {
+  bool success = 1;
+  int32  errCode = 2;
+  string errMsg = 3;
+
+}
+
+message UserLoginResp {
+  bool success = 1;
+  int32  errCode = 2;
+  string errMsg = 3;
+}
+
+message UserTokenResp {
+  int32 errCode = 1;
+  string errMsg = 2;
+  string token = 3;
+  int64 expiredTime = 4;
+
+}
+
+service Auth{
+  rpc UserLogin(UserLoginReq) returns(UserLoginResp);
+  rpc UserRegister(UserRegisterReq) returns(UserRegisterResp);
+  rpc UserToken(UserTokenReq) returns(UserTokenResp);
+}

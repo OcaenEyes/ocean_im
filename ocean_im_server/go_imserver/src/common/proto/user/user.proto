@@ -1,0 +1,29 @@
+syntax = "proto3";
+package oceanImUser;
+option go_package = ".;oceanImUser";
+
+message CommonResp{
+  int32 errCode = 1;
+  string errMsg = 2;
+}
+
+message GetUserInfoReq{
+  string userId = 1;
+}
+
+message GetUserInfoResp{
+  CommonResp commonResp = 1;
+  UserInfo userInfo = 2;
+
+}
+
+message UserInfo{
+  string userId = 1;
+  string nickName = 2;
+  string phone = 3;
+  string email = 4;
+  string birth = 5;
+  string headImg = 6;
+  int32 gender = 7;
+  string ex = 8;
+}

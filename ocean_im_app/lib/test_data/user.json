@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "message": "Success",
+    "userInfo": {
+      "uid": "923474",
+      "nickname": "123456789",
+      "phone": "123456789",
+      "email": "",
+      "birth": "",
+      "head_img": "",
+      "gender": 0,
+      "ex": ""
+    }
+  }

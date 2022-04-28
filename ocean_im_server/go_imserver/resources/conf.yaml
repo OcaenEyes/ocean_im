@@ -1,0 +1,19 @@
+serverVersion: 0.0.1
+
+mysql:
+  mysqlAddress: 127.0.0.1
+  mysqlPort: 3306
+  mysqlUsername: root
+  mysqlPassword:
+  mysqlDbname: oceanim_db
+  mysqlDbMaxOpenConns: 20
+  mysqlDbMaxIdleConns: 10
+  mysqlDbMaxLifeTime: 120
+
+redis:
+  redisAddress: 127.0.0.1
+  redisPort: 6379
+  redisPass: 123456
+  redisMaxIdle: 128
+  redisMaxActive: 0
+  redisIdleTimeout: 120

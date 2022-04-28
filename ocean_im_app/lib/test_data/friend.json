@@ -1,0 +1,62 @@
+{
+    "code": 0,
+    "friends": [
+        {
+            "owner_id": "923474",
+            "friend_id": "112030",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:04:14+08:00"
+        },
+        {
+            "owner_id": "923474",
+            "friend_id": "203040",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:06:10+08:00"
+        },
+        {
+            "owner_id": "923474",
+            "friend_id": "277655",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:06:42+08:00"
+        },
+        {
+            "owner_id": "923474",
+            "friend_id": "381919",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:07:19+08:00"
+        },
+        {
+            "owner_id": "923474",
+            "friend_id": "497100",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:07:53+08:00"
+        },
+        {
+            "owner_id": "923474",
+            "friend_id": "562455",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:08:08+08:00"
+        },
+        {
+            "owner_id": "923474",
+            "friend_id": "614609",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:08:22+08:00"
+        },
+        {
+            "owner_id": "923474",
+            "friend_id": "910074",
+            "comment": " ",
+            "friend_flag": 1,
+            "create_time": "2022-02-26T19:08:39+08:00"
+        }
+    ],
+    "message": "Success"
+}
